@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tanks
+  - oreCar
+  - 'Obstacles '
+  - Ground
+  - Base
+  - BlueTank
+  - YellowTank
+  - Yellow
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - pic
+  - 'Obstacles '
+  - Ground
+  - BlueTanks
+  - YellTanks
+  - Orefield
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BuyUI
+    uniqueID: 765147199
+    locked: 0
+  - name: Text
+    uniqueID: 873099207
+    locked: 0
