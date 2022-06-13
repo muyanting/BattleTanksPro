@@ -1,6 +1,7 @@
 # BattleTanksPro
-Battle Tanks networking enhanced version
-This project is a personal exercise and is not perfect
+Battle Tanks networking enhanced version. 
+
+This project is a personal exercise and has not been completed yet.
 
 
 
