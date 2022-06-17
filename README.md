@@ -31,3 +31,18 @@ This project is a personal exercise and has not been completed yet.
 
 - [ ] **实时显示目前双方的战斗单位数量。采用模糊逻辑评估当前对方的整体状态是：强、一般、弱**
 
+# DesignXMind
+## Tanks
+![TanksXmind](https://img-blog.csdnimg.cn/466ae096107c4a28a27ac60078bf1456.png)
+
+## OreCar
+![OreCarXmind](https://img-blog.csdnimg.cn/709db1c17b5340b08ab6860f82342212.png)
+
+
+
+
+
+
+
+
+
