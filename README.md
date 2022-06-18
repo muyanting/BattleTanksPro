@@ -13,7 +13,7 @@ This project is a personal exercise and has not been completed yet.
 
 - [x] ~~**左上角小地图**~~
 
-- [ ] **支持联网对战**
+- [x] ~~**支持联网对战**~~
 
 - [x] ~~**坦克自动在基地范围内巡逻，遇到敌方坦克或采矿车将主动追击**~~
 
