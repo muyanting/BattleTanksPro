@@ -12,6 +12,7 @@ TagManager:
   - BlueTank
   - YellowTank
   - Yellow
+  - Orefield
   layers:
   - Default
   - TransparentFX
