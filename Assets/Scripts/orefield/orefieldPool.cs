@@ -8,7 +8,7 @@ public class orefieldPool : MonoBehaviour
     public static orefieldPool instance;//单例模式
 
     public GameObject prefab_Orefield;
-    public GameObject center;
+    public Transform center;
 
     //public GameObject originOrefield;
 

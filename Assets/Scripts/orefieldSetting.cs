@@ -21,6 +21,7 @@ public class orefieldSetting : MonoBehaviour
         //maxPower = 100000;
         
         currentPower = maxPower;
+        Debug.Log("here is setting and orefield currentPower is" + currentPower);
     }
     void Update()
     {

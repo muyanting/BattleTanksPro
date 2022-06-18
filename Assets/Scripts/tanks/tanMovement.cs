@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class tanMovement : MonoBehaviour
+public class tanMovement : MonoBehaviourPun
 {
     public float moveSpeed = 10;
     public float rotateSpeed = 10;
@@ -18,14 +19,23 @@ public class tanMovement : MonoBehaviour
         rigidbody = this.gameObject.GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //// Update is called once per frame
+    //void Update()
+    //{
+    //    //如果不是玩家自己，取消控制
+    //    if (!photonView.IsMine && PhotonNetwork.IsConnected)
+    //    {
+    //        return;
+    //    }
+    //}
 
     private void FixedUpdate()
     {
+        //如果不是玩家自己，取消控制
+        if (!photonView.IsMine && PhotonNetwork.IsConnected)
+        {
+            return;
+        }
         float v = Input.GetAxisRaw("Vertical"+Player);
         float h = Input.GetAxisRaw("Horizontal"+Player);
         move.Normalize();
